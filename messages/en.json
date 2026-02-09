@@ -1,0 +1,15 @@
+{
+  "en": {
+    "common": {
+      "welcome": "Welcome",
+      "home": "Home",
+      "about": "About",
+      "contact": "Contact",
+      "language": "Language"
+    },
+    "home": {
+      "title": "Welcome to Mr Luxury",
+      "description": "Your premium luxury experience"
+    }
+  }
+}
