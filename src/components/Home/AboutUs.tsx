@@ -3,10 +3,10 @@ import { Button, MImage, Typography } from "../common";
 
 export const AboutUs = () => {
     return (
-        <section className="container flex items-center gap-10 justify-between">
-            <div className="w-1/2">
-                <Typography variant="h2Heading" className="">
-                    WELCOME TO <br/> MRLUXURYTRAVELS
+        <section className="container flex-col sm:flex-row flex items-center gap-10 justify-between">
+            <div className="w-full sm:w-1/2">
+                <Typography variant="h2Heading" className="-mt-4 sm:mt-0">
+                    WELCOME TO <br className="hidden sm:block"/> MRLUXURYTRAVELS
                 </Typography>
                 <Typography variant="mainBodyPara" className="mt-4">
                     Celebrating the French Art de Vivre in every detail, each MRLUXURYTRAVELS Maison is a canvas where bold design meets the soul of local craftsmanship. Serene havens unfold in harmony with their surroundings, culinary moments become symphonies of flavour, and well-being is reimagined through exclusive rituals.
@@ -27,14 +27,14 @@ export const AboutUs = () => {
                     w={170} 
                     h={340}
                     id="priority"
-                    className="absolute top-15 -right-5 z-10" 
+                    className="absolute sm:top-15 right-0 sm:-right-5 z-10" 
                 /> 
                 <MImage
                     src={Images.AboutUsSecMainImg} 
                     alt="Logo" 
                     w={460} 
                     id="priority"
-                    className="relative z-0 mt-10 mr-7" 
+                    className="relative z-0 sm:mt-10 mr-7" 
                 /> 
                 <MImage
                     src={Images.AboutUsSecBottomImg} 
@@ -42,7 +42,7 @@ export const AboutUs = () => {
                     w={170} 
                     h={340}
                     id="priority"
-                    className="absolute -bottom-1 -left-30 z-10" 
+                    className="absolute left:10 -bottom-1 sm:-left-30 z-10" 
                 /> 
             </div>
         </section>

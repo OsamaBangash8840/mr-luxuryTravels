@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { LocaleProvider } from '@/contexts/LocaleContext';
-import { Header } from '@/components/layout';
+import { Footer, Header } from '@/components/layout';
 import { Home } from '@/pages/Home';
 import { About } from '@/pages/About';
 import '@/index.css';
@@ -14,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </LocaleProvider>
   );

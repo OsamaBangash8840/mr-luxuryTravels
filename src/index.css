@@ -22,6 +22,9 @@
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
+
+  /* Footer */
+  --color-FooterBg: #F0EDED;
 }
 
 
@@ -56,5 +59,16 @@ h1, h2, h3, h4, h5, h6 {
   
   .font-body {
     font-family: var(--font-family-body);
+  }
+
+  .gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to top, #000000 0%, transparent 100%);
+    pointer-events: none;
+    border-radius: 20px;
   }
 }

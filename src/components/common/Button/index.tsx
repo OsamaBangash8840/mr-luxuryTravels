@@ -21,11 +21,11 @@ export const Button = ({
   ...rest
 }: IButton): React.ReactElement => {
   const baseStyles =
-    ' rounded-full justify-center transition-all duration-300 cursor-pointer inline-flex gap-2 items-center hover:text-primary'
+    ' justify-center transition-all duration-300 cursor-pointer inline-flex gap-2 items-center hover:text-primary'
 
   const variantStyles = {
     outline:
-      'shadow-[0px_4px_12px_rgba(0,0,0,0.03)] bg-white hover:border hover:border-primary-500',
+      'text-[20px] font-semibold bg-white text-primary px-2 py-3 rounded-[20px] w-[200px] ',
     primary:
       ' bg-white text-primary hover:text-primary text-[34px] hover:bg-white hover:text-primary-500',
     cart: 'rounded-full bg-primary-100 text-secondary-500 hover:text-primary hover:bg-white hover:border hover:border-primary-500 hover:text-primary-500',
