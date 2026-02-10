@@ -1,6 +1,6 @@
 'use client'
 import { Pagination, Autoplay } from 'swiper/modules'
-// import React, { useRef, ReactNode } from 'react'
+import React, { useRef, ReactNode } from 'react'
 import { FaRegCirclePause } from 'react-icons/fa6'
 import { Swiper } from 'swiper/react'
 import type { Swiper as SwiperType } from 'swiper'

@@ -19,6 +19,7 @@ interface ITypography {
   as?: ElementType;
   className?: string;
   color?: Color;
+  onClick?: () => void;
 }
 
 const tags: Record<Variant, ElementType> = {
@@ -60,10 +61,12 @@ export const Typography = ({
   children,
   as,
   className,
+  onClick,
 }: ITypography) => {
   const Tag = as ?? tags[variant];
   return (
     <Tag
+      onClick={onClick}
       className={clsx(
         sizes[variant],
         weights[weight],

@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { LocaleProvider } from '@/contexts/LocaleContext';
 import { Footer, Header } from '@/components/layout';
 import { Home } from '@/pages/Home';
-import { About } from '@/pages/About';
+// import { About } from '@/pages/About';
 import '@/index.css';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -30,7 +30,7 @@ export const ClientsLogo = () => {
         showPagination={false}
         slidesOnPhone={3}
         slidesOnTablet={2.5}
-        slidesOnDesktop={3.5}
+        slidesOnDesktop={6.5}
         slidesOnLargeScreens={6.5}
       >
         {logos.map((logo, index) => (

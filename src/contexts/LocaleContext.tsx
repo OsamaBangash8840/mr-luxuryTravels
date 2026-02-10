@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import { createContext, useContext, useState, ReactNode } from 'react';
 import { IntlProvider } from 'next-intl';
 import type { Locale } from '@/i18n/config';
 import { getMessages } from '@/i18n/request';

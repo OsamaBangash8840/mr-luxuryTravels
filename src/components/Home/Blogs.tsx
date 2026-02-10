@@ -1,4 +1,4 @@
-import { BlogCard, MImage, Typography } from "../common"
+import { BlogCard, Typography } from "../common"
 import { Images } from "@/assets/home"
 
 export const Blogs = () => {
