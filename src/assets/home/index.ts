@@ -42,6 +42,13 @@ import PhilosophyImg from './PhilospohyImg1.svg'
 import PhilosophyImg2 from './PhilospohyImg2.svg'
 import PhilosophyImg3 from './PhilospohyImg3.svg'
 import LastSecImg from './lastSecImg.svg'
+import ServiceBannerImg from './ServicesPageHero.svg'
+import LuxuryHotelImg from './luxuryHotel.svg'
+import VillasImg from './VillasSecImg.svg'
+import SnowImg from './SnowSec.svg'
+import PrivateIslandsImg from './PrivateIslands.svg'
+import AdventuresImg from './Adventures.svg'
+import DestinationImg from './Destination.svg'
 
 export const Images = {
  heroBannerImg,
@@ -87,5 +94,12 @@ export const Images = {
  PhilosophyImg,
  PhilosophyImg2,
  PhilosophyImg3,
- LastSecImg
+ LastSecImg,
+ ServiceBannerImg,
+ LuxuryHotelImg,
+ VillasImg,
+ SnowImg,
+ PrivateIslandsImg,
+ AdventuresImg,
+ DestinationImg
 }

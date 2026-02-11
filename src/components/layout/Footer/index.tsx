@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Images } from "@/assets/home"
 import { Button, Typography } from "@/components/common"
 import { FaWhatsapp } from "react-icons/fa";
@@ -29,18 +30,30 @@ export const Footer = () => {
                 <div className="flex flex-col sm:flex-row items-start sm:items-center w-[95%] mx-auto gap-8 sm:gap-32">
                     <div>
                         <Typography variant="mainBodyPara" color="primary" weight="semibold" className="mt-8 sm:mt-10">Discover</Typography>
-                        <Typography variant="mainBodyPara" color="secondary" className="mt-2">About Us</Typography>
-                        <Typography variant="mainBodyPara" color="secondary" className="mt-1">Services</Typography>
+                        <Link to="/about">
+                            <Typography variant="mainBodyPara" color="secondary" className="mt-2 text-textSecondary cursor-pointer hover:text-primary transition-colors">About Us</Typography>
+                        </Link>
+                        <Link to="/services">
+                            <Typography variant="mainBodyPara" color="secondary" className="mt-1 text-textSecondary cursor-pointer hover:text-primary transition-colors">Services</Typography>
+                        </Link>
                     </div>
                     <div>
                         <Typography variant="mainBodyPara" color="primary" weight="semibold" className="mt-0 sm:mt-10">Legal</Typography>
-                        <Typography variant="mainBodyPara" color="secondary" className="mt-2">Terms and Conditions</Typography>
-                        <Typography variant="mainBodyPara" color="secondary" className="mt-1">Privacy Policy</Typography>
+                        <Link to="/terms">
+                            <Typography variant="mainBodyPara" color="secondary" className="mt-2 text-textSecondary cursor-pointer hover:text-primary transition-colors">Terms and Conditions</Typography>
+                        </Link>
+                        <Link to="/privacy">
+                            <Typography variant="mainBodyPara" color="secondary" className="mt-1 text-textSecondary cursor-pointer hover:text-primary transition-colors">Privacy Policy</Typography>
+                        </Link>
                     </div>
                     <div>
                         <Typography variant="mainBodyPara" color="primary" weight="semibold" className="mt-0 sm:mt-10">Contact</Typography>
-                        <Typography variant="mainBodyPara" color="secondary" className="mt-2">+44 (0)203 595 1487</Typography>
-                        <Typography variant="mainBodyPara" color="secondary" className="mt-1">Danny@mrluxurytravels.com</Typography>
+                        <a href="tel:+4402035951487">
+                            <Typography variant="mainBodyPara" color="secondary" className="mt-2 text-textSecondary cursor-pointer hover:text-primary transition-colors">+44 (0)203 595 1487</Typography>
+                        </a>
+                        <a href="mailto:Danny@mrluxurytravels.com">
+                            <Typography variant="mainBodyPara" color="secondary" className="mt-1 text-textSecondary cursor-pointer hover:text-primary transition-colors">Danny@mrluxurytravels.com</Typography>
+                        </a>
                     </div>
                 </div>
 

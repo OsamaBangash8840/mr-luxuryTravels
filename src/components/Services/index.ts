@@ -1,0 +1,7 @@
+export * from './Hero'
+export * from './LuxuryHotel'
+export * from './VillasSec'
+export * from './SnowSec'
+export * from './PrivateIslands'
+export * from './Adventures'
+export * from './Destination'
