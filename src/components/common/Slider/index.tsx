@@ -58,7 +58,7 @@ const ARROW_STYLES: Record<ArrowStyleType, ArrowConfig> = {
     leftIcon: <MImage src={Images.ButtonLeftIconSvg} alt="" />,
     rightIcon: <MImage src={Images.ButtonIconSvg} alt="" className='-ml-4'/>,
     buttonClass:
-      'bg-white  flex justify-center items-center h-9 w-16  hover:bg-gray-50 transition-colors -mt-32',
+      'bg-white  flex justify-center items-center h-9 w-16  hover:bg-gray-50 transition-colors mt-122 md:-mt-32',
     containerClass: 'absolute top-0 right-0 z-50',
     iconClass: 'text-secondary-500',
   },

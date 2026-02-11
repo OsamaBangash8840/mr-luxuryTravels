@@ -5,13 +5,13 @@ export function Home() {
 
 
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Hero />
       <ClientsLogo />
       <AboutUs />
       <Destinations />
       <Services />
       <Blogs />
-    </>
+    </div>
   );
 }

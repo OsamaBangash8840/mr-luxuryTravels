@@ -3,14 +3,14 @@ import { MImage, Typography } from "../common"
 
 export const Services = () => {
     return (
-        <section className="container mt-10 sm:mt-20">
+        <section className="container mt-10 xl:mt-20">
                 <div className="sm:w-[60%]">
                     <Typography variant="h2Heading">Services</Typography>
                     <Typography className="mt-5">
                        MRLUXURYTRAVELS is dedicated to providing the ultimate lifestyle service, guiding you through the ever-changing world of luxury, making every moment a memory. Whether you require assistance with your day-to-day life or your lifelong dreams, the MRLUXURYTRAVELS team are experts in all things luxury
                     </Typography>
                 </div>
-                <div className="flex justify-center items-center gap-3 mt-10 sm:mt-16 2xl:mt-32 min-h-[500px]">
+                <div className="flex justify-center items-center gap-3 mt-10 md:-mt-12 xl:mt-16 2xl:mt-32 min-h-[500px]">
                     {/* Left column - single large image - Hidden on mobile */}
                     <div className="hidden sm:block relative sm:w-1/4 rounded-[20px]">
                         <MImage src={Images.Service1} alt="" />
@@ -40,7 +40,7 @@ export const Services = () => {
                     </div>
                     
                     {/* Right column - grid of images - Full width on mobile */}
-                    <div className="w-full sm:w-1/2 flex flex-col gap-3">
+                    <div className="w-full sm:w-1/2 flex flex-col gap-3 xl:gap-9">
                         {/* Top row - two images side by side */}
                         <div className="flex gap-3">
                             <div className="relative w-1/2 rounded-[20px] h-[200px] sm:h-auto overflow-hidden">
@@ -116,7 +116,7 @@ export const Services = () => {
                     </div>
                 </div>
                 {/* second row */}
-                <div className="flex flex-col sm:flex-row justify-center items-center gap-3 -mt-4 sm:mt-8 2xl:mt-32">
+                <div className="flex flex-col sm:flex-row justify-center items-center gap-3 -mt-4 md:-mt-14 xl:mt-4">
                     <div className="relative w-full sm:w-1/4 rounded-[20px] h-[250px] overflow-hidden">
                         <MImage src={Images.Service6} alt="" className="w-full h-full object-cover" />
                         <div className="gradient-overlay" />

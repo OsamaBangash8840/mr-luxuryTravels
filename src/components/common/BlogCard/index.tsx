@@ -3,7 +3,7 @@ import { Typography } from "../Typography"
 
 export const BlogCard = ({img, title, date, place}: {img: string, title: string, date: string, place: string}) => {
     return (
-        <div className="w-full md:w-[calc(25%-12px)] lg:w-[calc(25%-12px)]">
+        <div className="w-full">
             <div className="rounded-[20px] h-[250px] overflow-hidden mt-4 sm:mt-0">
                 <MImage src={img} alt="" className="w-full h-full object-cover" />
             </div>

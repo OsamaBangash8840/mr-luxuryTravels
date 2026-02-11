@@ -1,14 +1,19 @@
 import { Images } from "@/assets/home"
-import { Button, MImage, Typography } from "@/components/common"
+import { Button, Typography } from "@/components/common"
+import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
+
 
 export const Footer = () => {
     return (
         <>
-            <section className="relative w-[90%] mx-auto py-3 sm:py-0  sm:h-[370px] rounded-[20px] sm:flex justify-center items-center px-5 sm:px-10 z-50" style={{backgroundImage: `url(${Images.FooterBg})`}}>
+            <section className="relative w-[90%] mx-auto py-3 xl:py-0  xl:h-[370px] rounded-[20px] sm:flex justify-center items-center px-5 sm:px-10 z-50" style={{backgroundImage: `url(${Images.FooterBg})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
                 <div>
 
                 <Typography variant="h2Heading" color="white" className="mt-3">Don't Miss A Thing</Typography>
-                <Typography variant="mainBodyPara" className="sm:w-[60%] mt-3" color="white">Get essential travel tips, destination inspiration, itineraries, and the best places to stay in your inbox.</Typography>
+                <Typography variant="mainBodyPara" className="xl:w-[60%] mt-3" color="white">Get essential travel tips, destination inspiration, itineraries, and the best places to stay in your inbox.</Typography>
                 <Typography variant="mainBodyPara" className="sm:mt-10 mt-6" color="white" weight="semibold">Sign up to the Mr Luxury Travels Newsletter.</Typography>
                 </div>
                 <div className="flex flex-col gap-5 mt-10 sm:mt-0">
@@ -46,17 +51,17 @@ export const Footer = () => {
                     </Typography>
                     
                     <div className="flex items-center gap-2 order-1 sm:order-2">
-                        <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity">
-                            <MImage src={Images.FacebookIcon} alt="Facebook" className="w-5 h-5" />
+                          <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity">
+                            <FaWhatsapp className="w-5 h-5 text-white" />
                         </div>
                         <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity">
-                            <MImage src={Images.InstagramIcon} alt="Instagram" className="w-5 h-5" />
+                            <FaInstagram className="w-5 h-5 text-white" />
                         </div>
                         <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity">
-                            <MImage src={Images.TwitterIcon} alt="Twitter" className="w-5 h-5" />
+                            <FaFacebookF className="w-5 h-5 text-white" />
                         </div>
                         <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity">
-                            <MImage src={Images.WhatsappIcon} alt="WhatsApp" className="w-5 h-5" />
+                            <RiTwitterXFill className="w-5 h-5 text-white" />
                         </div>
                     </div>
                 </div>
@@ -66,7 +71,7 @@ export const Footer = () => {
                     variant="h1Heading"
                     color="primary" 
                     weight="regular" 
-                    className="w-[95%] mx-auto py-6 sm:py-3 text-center sm:text-left"
+                    className="w-[95%] mx-auto py-6 sm:py-3 text-center sm:text-left xl:!text-[140px] xl:!leading-[140px] xl:!mt-10"
                 >
                     travel beyond your expectation.
                 </Typography>

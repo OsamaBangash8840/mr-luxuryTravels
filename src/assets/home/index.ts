@@ -32,7 +32,16 @@ import FooterBg from './footerBgImg.svg'
 import FacebookIcon from './facebook.svg'
 import InstagramIcon from './insta.svg'
 import TwitterIcon from './xicon.svg'
-import WhatsappIcon from './/whatsapp.svg'
+import WhatsappIcon from './whatsapp.svg'
+import PersonalInfoImg from './AboutUsPage1.svg'
+import PersonalInfoImg2 from './AboutUsPage2.svg'
+import JourneyImg from './JourneyImg1.svg'
+import JourneyImg2 from './JourneyImg2.svg'
+import JourneyImg3 from './JourneyImg3.svg'
+import PhilosophyImg from './PhilospohyImg1.svg'
+import PhilosophyImg2 from './PhilospohyImg2.svg'
+import PhilosophyImg3 from './PhilospohyImg3.svg'
+import LastSecImg from './lastSecImg.svg'
 
 export const Images = {
  heroBannerImg,
@@ -69,5 +78,14 @@ export const Images = {
  FacebookIcon,
  InstagramIcon,
  TwitterIcon,
- WhatsappIcon
+ WhatsappIcon,
+ PersonalInfoImg,
+ PersonalInfoImg2,
+ JourneyImg,
+ JourneyImg2,
+ JourneyImg3,
+ PhilosophyImg,
+ PhilosophyImg2,
+ PhilosophyImg3,
+ LastSecImg
 }

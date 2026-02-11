@@ -50,13 +50,59 @@ export const Destinations = () => {
             name: 'Dubai',
             description: 'Modern luxury redefined',
             image: Images.Destination4
+        }, {
+            id: 1,
+            name: 'Paris',
+            description: 'Travel the world in style',
+            image: Images.Destination1
+        },
+        {
+            id: 2,
+            name: 'Maldives',
+            description: 'Paradise on earth',
+            image: Images.Destination2
+        },
+        {
+            id: 3,
+            name: 'Switzerland',
+            description: 'Alpine luxury awaits',
+            image: Images.Destination3
+        },
+        {
+            id: 4,
+            name: 'Dubai',
+            description: 'Modern luxury redefined',
+            image: Images.Destination4
+        },  {
+            id: 5,
+            name: 'Paris',
+            description: 'Travel the world in style',
+            image: Images.Destination1
+        },
+        {
+            id: 6,
+            name: 'Maldives',
+            description: 'Paradise on earth',
+            image: Images.Destination2
+        },
+        {
+            id: 7,
+            name: 'Switzerland',
+            description: 'Alpine luxury awaits',
+            image: Images.Destination3
+        },
+        {
+            id: 8,
+            name: 'Dubai',
+            description: 'Modern luxury redefined',
+            image: Images.Destination4
         },
     ]
 
     return (
         <section className="container mt-20">
             <div className="flex justify-between items-start mb-8">
-                <div className="w-[60%]">
+                <div className="sm:w-[60%]">
                     <Typography variant="h2Heading">Destinations</Typography>
                     <Typography className="mt-5">
                         MRLUXURYTRAVELS is dedicated to providing the ultimate lifestyle service, guiding you through the ever-changing world of luxury, making every moment a memory. Whether you require assistance with your day-to-day life or your lifelong dreams, the MRLUXURYTRAVELS team are experts in all things luxury

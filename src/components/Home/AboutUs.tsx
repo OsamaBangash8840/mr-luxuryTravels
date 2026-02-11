@@ -5,7 +5,7 @@ export const AboutUs = () => {
     return (
         <section className="container flex-col sm:flex-row flex items-center gap-10 justify-between">
             <div className="w-full sm:w-1/2">
-                <Typography variant="h2Heading" className="-mt-4 sm:mt-0">
+                <Typography variant="h2Heading" className="-mt-4 md:mt-0">
                     WELCOME TO <br className="hidden sm:block"/> MRLUXURYTRAVELS
                 </Typography>
                 <Typography variant="mainBodyPara" className="mt-4">
@@ -27,7 +27,7 @@ export const AboutUs = () => {
                     w={170} 
                     h={340}
                     id="priority"
-                    className="absolute sm:top-15 right-0 sm:-right-5 z-10" 
+                    className="absolute md:top-15 right-0 md:-right-5 z-10" 
                 /> 
                 <MImage
                     src={Images.AboutUsSecMainImg} 

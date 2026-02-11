@@ -29,7 +29,7 @@ export const ClientsLogo = () => {
         showButtons={false}
         showPagination={false}
         slidesOnPhone={3}
-        slidesOnTablet={2.5}
+        slidesOnTablet={4}
         slidesOnDesktop={6.5}
         slidesOnLargeScreens={6.5}
       >
