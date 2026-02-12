@@ -3,6 +3,7 @@ import { useState } from "react";
 import { MImage, Typography } from "@/components/common";
 import { Images } from "@/assets/home";
 import { LanguageDropdown } from "../LanguageDropdown";
+import { ServicesDropdown } from "../ServicesDropdown";
 
 export const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -32,9 +33,7 @@ export const Header = () => {
                     <Link to="/about">
                         <Typography variant="navLink" className={isActive('/about')}>About</Typography>
                     </Link>
-                    <Link to="/services">
-                        <Typography variant="navLink" className={isActive('/services')}>Services</Typography>
-                    </Link>
+                    <ServicesDropdown />
                     <Link to="/contact">
                         <Typography variant="navLink" className={isActive('/contact')}>Contact</Typography>
                     </Link>
@@ -77,9 +76,7 @@ export const Header = () => {
                     <Link to="/about" onClick={() => setIsMobileMenuOpen(false)}>
                         <Typography variant="navLink" className={`cursor-pointer ${isActive('/about')}`}>About</Typography>
                     </Link>
-                    <Link to="/services" onClick={() => setIsMobileMenuOpen(false)}>
-                        <Typography variant="navLink" className={`cursor-pointer ${isActive('/services')}`}>Services</Typography>
-                    </Link>
+                    <ServicesDropdown onItemClick={() => setIsMobileMenuOpen(false)} />
                     <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
                         <Typography variant="navLink" className={`cursor-pointer ${isActive('/contact')}`}>Contact</Typography>
                     </Link>
