@@ -27,7 +27,7 @@ export const Button = ({
     outline:
       'text-[20px] font-semibold bg-white text-primary px-2 py-3 rounded-[20px] w-[200px] ',
     primary:
-      ' bg-white text-primary hover:text-primary text-[34px] hover:bg-white hover:text-primary-500',
+      ' text-[20px] font-semibold bg-primary text-white px-2 py-3 rounded-[20px] w-[200px] hover:bg-white hover:text-primary',
     cart: 'rounded-full bg-primary-100 text-secondary-500 hover:text-primary hover:bg-white hover:border hover:border-primary-500 hover:text-primary-500',
     services: ' border-2 border-primary-500 text-primary-500 rounded-full ',
   }

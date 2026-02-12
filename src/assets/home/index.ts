@@ -49,6 +49,10 @@ import SnowImg from './SnowSec.svg'
 import PrivateIslandsImg from './PrivateIslands.svg'
 import AdventuresImg from './Adventures.svg'
 import DestinationImg from './Destination.svg'
+import CallIcon from './CallUsIcon.svg'
+import EmailIcon from './EmailIcon.svg'
+import LocationIcon from './MapIcon.svg'
+import ContactImg from './ContactPageImg.svg'
 
 export const Images = {
  heroBannerImg,
@@ -101,5 +105,9 @@ export const Images = {
  SnowImg,
  PrivateIslandsImg,
  AdventuresImg,
- DestinationImg
+ DestinationImg,
+ CallIcon,
+ EmailIcon,
+ LocationIcon,
+ ContactImg
 }
