@@ -18,7 +18,7 @@ export const Form = () => {
                         <input type="email" placeholder="Email" className="border border-primary text-primary px-6 md:px-8 py-3 rounded-[20px] w-full lg:w-[600px] 2xl:w-[800px] font-body focus:outline-none"/>
                         <input type="number" placeholder="Phone Number" className="border border-primary text-primary px-6 md:px-8 py-3 rounded-[20px] w-full lg:w-[600px] 2xl:w-[800px] font-body focus:outline-none"/>
                         <textarea placeholder="Message" className="border border-primary text-primary px-6 md:px-8 py-3 rounded-[20px] w-full lg:w-[600px] 2xl:w-[800px] font-body focus:outline-none" rows={4}/>
-                        <div className="flex justify-end">
+                        <div className="flex justify-end w-full lg:w-[600px] 2xl:w-[800px]">
                             <Button title="Subscribe" variant="primary"  className=""/>
                         </div>
                     </div>
