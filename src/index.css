@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
 
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
   /* Brand Colors */
   --color-black: #000000;
   --color-white: #ffffff;
-  --color-primary: #624A43;
+  --color-primary: #624a43;
   --color-secondary: #808080;
-  
+
   /* Text Colors */
-  --color-textPrimary: #624A43;
+  --color-textPrimary: #624a43;
   --color-textSecondary: #808080;
-  
+
   /* Font Families */
   --font-family-heading: 'Abhaya Libre', serif;
   --font-family-body: 'Inter', sans-serif;
-  
+
   /* Font Weights */
   --font-weight-normal: 400;
   --font-weight-medium: 500;
@@ -24,39 +24,41 @@
   --font-weight-bold: 700;
 
   /* Footer */
-  --color-FooterBg: #F0EDED;
+  --color-FooterBg: #f0eded;
 }
 
-
-
 :root {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Abhaya Libre', serif;
-    font-weight: 500;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 500;
 }
-
 
 .container {
-    width: 95%;
-    max-width: 1750px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 95%;
+  max-width: 1750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @layer utilities {
   .font-heading {
     font-family: var(--font-family-heading);
   }
-  
+
   .font-body {
     font-family: var(--font-family-body);
   }

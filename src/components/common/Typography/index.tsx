@@ -32,12 +32,12 @@ const tags: Record<Variant, ElementType> = {
 };
 
 const sizes: Record<Variant, string> = {
-  h1Heading: "text-[50px] leading-[50px] md:text-[70px] md:leading-[70px] xl:text-[120px] xl:leading-[120px] 2xl:text-[200px] 2xl:leading-[180px] font-heading font-medium",
-  h2Heading: "text-[40px] leading-[40px] xl:text-[70px] xl:leading-[70px] 2xl:text-[100px] 2xl:leading-[100px] font-heading font-medium",
-  destinationTitle: "text-[24px] leading-[28px] sm:text-[28px] sm:leading-[32px] md:text-[32px] md:leading-[36px] lg:text-[36px] lg:leading-[40px] xl:text-[40px] xl:leading-[44px] font-heading font-medium",
-  largePara: "text-[22px] 2xl:text-[30px] 2xl:leading-[48px] font-heading",
-  mainBodyPara: "text-[14px] leading-[20px] sm:text-[15px] sm:leading-[22px] md:text-[16px] md:leading-[24px] 2xl:text-[20px] xl:leading-[30px] font-body",
-  navLink:"text-[16px] text-textPrimary font-body",
+  h1Heading: "text-[40px] leading-[40px] md:text-[60px] md:leading-[60px] xl:text-[110px] xl:leading-[110px] 2xl:text-[190px] 2xl:leading-[180px] font-heading font-medium",
+  h2Heading: "text-[30px] leading-[40px] xl:text-[60px] xl:leading-[70px] 2xl:text-[90px] 2xl:leading-[100px] font-heading font-medium",
+  destinationTitle: "text-[20px] leading-[28px] sm:text-[24px] sm:leading-[32px] md:text-[28px] md:leading-[36px] lg:text-[32px] lg:leading-[40px] xl:text-[36px] xl:leading-[44px] font-heading font-medium",
+  largePara: "text-[19px] 2xl:text-[27px] 2xl:leading-[48px] font-heading",
+  mainBodyPara: "text-[13px] leading-[18px] sm:text-[14px] sm:leading-[20px] md:text-[15px] md:leading-[22px] 2xl:text-[18px] xl:leading-[28px] font-body",
+  navLink:"text-[15px] text-textPrimary font-body",
 
 };
 

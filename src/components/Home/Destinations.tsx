@@ -119,6 +119,7 @@ export const Destinations = () => {
                     showButtons={true}
                     showPagination={false}
                     arrowStyle="default"
+                    autoplay={{ delay: 3000, disableOnInteraction: false }}
                     slidesOnPhone={1}
                     slidesOnTablet={2.2}
                     slidesOnDesktop={4.2}

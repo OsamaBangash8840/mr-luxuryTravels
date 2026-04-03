@@ -53,6 +53,7 @@ import CallIcon from './CallUsIcon.svg'
 import EmailIcon from './EmailIcon.svg'
 import LocationIcon from './MapIcon.svg'
 import ContactImg from './ContactPageImg.svg'
+import HeroVideo from './hero-video.mp4'
 
 export const Images = {
  heroBannerImg,
@@ -109,5 +110,6 @@ export const Images = {
  CallIcon,
  EmailIcon,
  LocationIcon,
- ContactImg
+ ContactImg,
+ HeroVideo
 }
