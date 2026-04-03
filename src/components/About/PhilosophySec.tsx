@@ -8,7 +8,7 @@ export const PhilosophySec = () => {
               <div className="flex flex-col sm:flex-row justify-between items-center gap-8 sm:gap-24">
                   <div className="flex gap-5 ">
                      <div className="">
-                          <MImage src={Images.PhilosophyImg} alt="Journey" className="sm:w-[320px] w-[160px] 2xl:w-[405px]  rounded-lg mt-5" />
+                          <MImage src={Images.PhilosophyImg} alt="Journey" className="sm:w-[320px] w-[160px] 2xl:w-[405px]  rounded-lg mt-5 md:mt-[36px]" />
                           <MImage src={Images.PhilosophyImg2} alt="Journey" className="sm:w-[320px] w-[160px] 2xl:w-[405px] rounded-lg mt-5" />
                       </div>
                       <MImage src={Images.PhilosophyImg3} alt="Journey" className="sm:w-[320px] w-[160px] 2xl:w-[405px] rounded-lg" />

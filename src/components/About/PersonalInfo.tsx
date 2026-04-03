@@ -14,7 +14,7 @@ export const PersonalInfo = () => {
                     <Typography variant="mainBodyPara" className="mt-4" color="secondary">Danny is a proud <b>Virtuoso Travel Advisor</b> and a partner of <b>Global Travel Collection</b>, giving his clients access to unparalleled global infrastructure, preferred partnerships, exclusive benefits, and exceptional value. Whether managing complex corporate travel or creating indulgent leisure experiences, Danny delivers a level of service his clients consider the standard. </Typography>
                 </div>
                 <div className="w-full sm:w-1/2 ">
-                    <MImage src={Images.PersonalInfoImg} alt="Personal Info" className="w-full h-auto rounded-lg" />
+                    <MImage src={Images.PersonalInfoImg} alt="Personal Info" className="w-full h-auto md:h-full md:object-cover rounded-lg" />
                 </div>
             </div>
             <div style={{backgroundImage: `url(${Images.PersonalInfoImg2})`}} className="w-full sm:h-[320px] h-[160px] rounded-lg mt-8 bg-cover bg-center bg-no-repeat"></div>

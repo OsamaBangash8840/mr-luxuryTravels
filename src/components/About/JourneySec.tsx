@@ -12,10 +12,10 @@ export const JourneySec = () => {
                  <Typography variant="mainBodyPara" className="mt-6 sm:w-[87%]" color="secondary" >In 1992, while sitting on a rock in Hawaii, Danny made a life-changing decision: travel would not just be a passion, but his profession. That moment sparked a journey that continues to this day. </Typography>
                  <Typography variant="mainBodyPara" className="mt-6 sm:w-[87%]" color="secondary" >At just 22, Danny embarked on his first major trip around the world — flying from London through Asia, Australia, New Zealand, the Pacific Islands, Hawaii, the United States, and back home. From that moment on, he was truly “bitten by the travel bug.” </Typography>
             </div>
-            <div className="flex gap-5 ">
+            <div className="flex gap-5 md:mx-auto md:justify-center">
                 <MImage src={Images.JourneyImg} alt="Journey" className="sm:w-[320px] w-[160px] 2xl:w-[405px] rounded-lg" />
                 <div className="">
-                    <MImage src={Images.JourneyImg2} alt="Journey" className="sm:w-[320px] w-[160px] 2xl:w-[405px]   rounded-lg mt-5" />
+                    <MImage src={Images.JourneyImg2} alt="Journey" className="sm:w-[320px] w-[160px] 2xl:w-[405px]   rounded-lg mt-5 md:mt-[36px]" />
                     <MImage src={Images.JourneyImg3} alt="Journey" className="sm:w-[320px] w-[160px] 2xl:w-[405px] rounded-lg mt-5" />
                 </div>
             </div>

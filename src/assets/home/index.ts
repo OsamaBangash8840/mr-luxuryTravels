@@ -14,7 +14,7 @@ import Logo6 from './logo6.svg'
 import Logo7 from './logo7.svg'
 import Destination1 from './paris.svg'
 import Destination2 from './maldives.svg'
-import Destination3 from './dubai.svg'
+import Destination3 from './switzerland2.svg'
 import Destination4 from './switzerland.svg'
 import Service1 from './service1.svg'
 import Service2 from './service2.svg'
@@ -54,6 +54,7 @@ import EmailIcon from './EmailIcon.svg'
 import LocationIcon from './MapIcon.svg'
 import ContactImg from './ContactPageImg.svg'
 import HeroVideo from './hero-video.mp4'
+import Switzerland2 from './switzerland2.svg'
 
 export const Images = {
  heroBannerImg,
@@ -111,5 +112,6 @@ export const Images = {
  EmailIcon,
  LocationIcon,
  ContactImg,
- HeroVideo
+ HeroVideo,
+ Switzerland2
 }
