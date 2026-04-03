@@ -54,6 +54,7 @@ import EmailIcon from './EmailIcon.svg'
 import LocationIcon from './MapIcon.svg'
 import ContactImg from './ContactPageImg.svg'
 import HeroVideo from './hero-video.mp4'
+import LoaderVideo from './loader.mp4'
 import Switzerland2 from './switzerland2.svg'
 
 export const Images = {
@@ -113,5 +114,6 @@ export const Images = {
  LocationIcon,
  ContactImg,
  HeroVideo,
+ LoaderVideo,
  Switzerland2
 }

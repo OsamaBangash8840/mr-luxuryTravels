@@ -4,3 +4,4 @@ export * from './MImage/index';
 export * from './Button/index';
 export * from './Slider/index';
 export * from './BlogCard/index';
+export * from './GlobalLoader/index';
