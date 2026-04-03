@@ -39,10 +39,10 @@ export const Footer = () => {
                     </div>
                     <div>
                         <Typography variant="mainBodyPara" color="primary" weight="semibold" className="mt-0 sm:mt-10">Legal</Typography>
-                        <Link to="/terms">
+                        <Link to="/">
                             <Typography variant="mainBodyPara" color="secondary" className="mt-2 text-textSecondary cursor-pointer hover:text-primary transition-colors">Terms and Conditions</Typography>
                         </Link>
-                        <Link to="/privacy">
+                        <Link to="/">
                             <Typography variant="mainBodyPara" color="secondary" className="mt-1 text-textSecondary cursor-pointer hover:text-primary transition-colors">Privacy Policy</Typography>
                         </Link>
                     </div>
