@@ -4,7 +4,7 @@ import { Button, MImage, Typography } from "../common"
 export const Form = () => {
     return (
         <>
-        <section className="container mx-auto mt-10 mb-10 md:mb-20 px-4 md:px-8 lg:px-12 overflow-x-hidden">
+        <section className="container mx-auto mt-10 lg:mt-20 lg:mb-20 mb-10 md:mb-20 px-4 md:px-8 lg:px-12 overflow-x-hidden">
             <div className="flex-col md:flex-row flex justify-between items-center gap-8 md:gap-12 lg:gap-16">
                 <div className="w-full md:w-1/2">
                     <MImage src={Images.ContactImg} alt="contact-1" className=""/>

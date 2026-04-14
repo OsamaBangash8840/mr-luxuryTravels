@@ -33,7 +33,7 @@ export const GlobalLoader = () => {
   if (!loading) return null;
 
   return (
-    <div className="fixed inset-0 z-[9999] bg-[#0f0f0f] flex items-center justify-center">
+    <div className="fixed inset-0 z-[9999] bg-[#fdfdfd] flex items-center justify-center">
       <video
         src={loaderVideo}
         autoPlay
@@ -41,7 +41,7 @@ export const GlobalLoader = () => {
         playsInline
         onEnded={() => setLoading(false)}
         onError={() => setLoading(false)}
-        className="w-full h-full object-cover"
+        className="w-full h-[60%] object-cover lg:w-[50%] lg:h-[50%]"
       />
     </div>
   );
