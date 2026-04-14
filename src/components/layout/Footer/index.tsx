@@ -4,7 +4,7 @@ import { Button, Typography } from "@/components/common"
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
-import { RiTwitterXFill } from "react-icons/ri";
+import { BsTiktok } from "react-icons/bs";
 
 
 export const Footer = () => {
@@ -64,18 +64,26 @@ export const Footer = () => {
                     </Typography>
                     
                     <div className="flex items-center gap-2 order-1 sm:order-2">
+                        <Link to="https://wa.me/447810103311">
                           <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity">
                             <FaWhatsapp className="w-5 h-5 text-white" />
                         </div>
+                        </Link>
+                        <Link to="https://www.instagram.com/mrluxurytravel">
                         <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity">
                             <FaInstagram className="w-5 h-5 text-white" />
                         </div>
+                        </Link>
+                        <Link to="https://www.tiktok.com/@mrluxurytravels">
+                        <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity">
+                            <BsTiktok className="w-5 h-5 text-white" />
+                        </div>
+                        </Link>
+                        <Link to="#">
                         <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity">
                             <FaFacebookF className="w-5 h-5 text-white" />
                         </div>
-                        <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:opacity-80 transition-opacity">
-                            <RiTwitterXFill className="w-5 h-5 text-white" />
-                        </div>
+                        </Link>
                     </div>
                 </div>
 
