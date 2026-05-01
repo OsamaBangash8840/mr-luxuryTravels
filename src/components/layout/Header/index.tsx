@@ -30,10 +30,16 @@ export const Header = () => {
 
                 {/* Desktop Navigation - Hidden on mobile */}
                 <nav className="hidden md:flex gap-10 items-center">
-                    <Link to="/about">
-                        <Typography variant="navLink" className={isActive('/about')}>About</Typography>
+                    <Link to="/">
+                        <Typography variant="navLink" className={isActive('/destinations')}>Destinations</Typography>
                     </Link>
                     <ServicesDropdown />
+                    <Link to="/">
+                        <Typography variant="navLink" className={isActive('/experiences')}>Experiences</Typography>
+                    </Link><Link to="/about">
+                        <Typography variant="navLink" className={isActive('/about')}>About</Typography>
+                    </Link>
+                    
                     <Link to="/contact">
                         <Typography variant="navLink" className={isActive('/contact')}>Contact</Typography>
                     </Link>
@@ -73,10 +79,16 @@ export const Header = () => {
                 </button>
 
                 <nav className="flex flex-col gap-6 p-8 mt-20">
+                      <Link to="/" onClick={() => setIsMobileMenuOpen(false)}>
+                        <Typography variant="navLink" className={isActive('/destinations')}>Destinations</Typography>
+                    </Link>
+                    <ServicesDropdown onItemClick={() => setIsMobileMenuOpen(false)} />
+                    <Link to="/" onClick={() => setIsMobileMenuOpen(false)}>
+                        <Typography variant="navLink" className={isActive('/experiences')}>Experiences</Typography>
+                    </Link>
                     <Link to="/about" onClick={() => setIsMobileMenuOpen(false)}>
                         <Typography variant="navLink" className={`cursor-pointer ${isActive('/about')}`}>About</Typography>
                     </Link>
-                    <ServicesDropdown onItemClick={() => setIsMobileMenuOpen(false)} />
                     <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
                         <Typography variant="navLink" className={`cursor-pointer ${isActive('/contact')}`}>Contact</Typography>
                     </Link>
