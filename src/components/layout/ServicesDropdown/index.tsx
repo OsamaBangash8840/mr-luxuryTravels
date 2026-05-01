@@ -19,7 +19,7 @@ const services: ServiceItem[] = [
   { name: 'Luxury Travel Planning', path: '/services' },
   { name: 'Private Jet Charters', path: '/services' },
   { name: 'Yacht Rentals', path: '/services' },
-  { name: 'Exclusive Accommodations', path: '/services' },
+  { name: 'Lifestyle', path: '/services' },
   { name: 'VIP Experiences', path: '/services' },
   { name: 'Concierge Services', path: '/services' },
 ];
