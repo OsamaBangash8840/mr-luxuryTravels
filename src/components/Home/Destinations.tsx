@@ -1,8 +1,10 @@
 import { SwiperSlide } from "swiper/react"
 import { CustomSwiper, Typography } from "../common"
 import { Images } from "@/assets/home"
+import { useNavigate } from "react-router-dom"
 
 export const Destinations = () => {
+    const navigate = useNavigate();
     const destinations = [
         {
             id: 1,
@@ -128,7 +130,10 @@ export const Destinations = () => {
                     {destinations.map((destination, index) => (
                         <SwiperSlide key={`${destination.id}-${index}`}>
                             {({ isActive }) => (
-                                <div className="group cursor-pointer">
+                                <div 
+                                    onClick={() => navigate(`/destination/${destination.name.toLowerCase()}`)}
+                                    className="group cursor-pointer"
+                                >
                                     <div className={`relative overflow-hidden rounded-2xl h-[400px] transition-all duration-500 ${
                                         isActive ? 'scale-100' : 'scale-93'
                                     }`}>
