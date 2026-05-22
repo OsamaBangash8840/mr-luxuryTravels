@@ -12,28 +12,22 @@ export const Destinations = () => {
       image: Images.AsiaBg,
     },
     {
-      id: 2,
-      name: 'Europe',
-      description: 'Paradise on earth',
-      image: Images.Europe,
-    },
-    {
       id: 3,
-      name: 'Africe',
+      name: 'Africa',
       description: 'Alpine luxury awaits',
       image: Images.Africa,
     },
     {
-      id: 4,
-      name: 'Scandinavia',
-      description: 'Modern luxury redefined',
-      image: Images.Scandinavia,
+      id: 9,
+      name: 'Antartica',
+      description: 'Travel the world in style',
+      image: Images.Antartica,
     },
     {
-      id: 5,
-      name: 'North_America',
-      description: 'Travel the world in style',
-      image: Images.NorthAmerica,
+      id: 2,
+      name: 'Europe',
+      description: 'Paradise on earth',
+      image: Images.Europe,
     },
     {
       id: 6,
@@ -54,10 +48,17 @@ export const Destinations = () => {
       image: Images.MiddelEast,
     },
     {
-      id: 9,
-      name: 'Antartica',
+      id: 5,
+      name: 'North_America',
       description: 'Travel the world in style',
-      image: Images.Antartica,
+      image: Images.NorthAmerica,
+    },
+
+    {
+      id: 4,
+      name: 'Scandinavia',
+      description: 'Modern luxury redefined',
+      image: Images.Scandinavia,
     },
   ];
 
@@ -105,7 +106,7 @@ export const Destinations = () => {
                   >
                     <img
                       src={destination.image}
-                      alt={destination.name}
+                      alt={destination.name.replace(/_/g, ' ')}
                       className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
@@ -121,7 +122,7 @@ export const Destinations = () => {
                       variant="destinationTitle"
                       className="text-primary mb-1"
                     >
-                      {destination.name}
+                      {destination.name.replace(/_/g, ' ')}
                     </Typography>
                     <Typography
                       variant="mainBodyPara"

@@ -17,14 +17,14 @@ interface ServiceItem {
 
 const services: ServiceItem[] = [
   { name: 'Asia', path: '/destination/asia' },
-  { name: 'Europe', path: '/destination/europe' },
   { name: 'Africa', path: '/destination/africa' },
-  { name: 'Scandinavia & Nordics', path: '/destination/scandinavia' },
-  { name: 'Middle East', path: '/destination/middleeast' },
-  { name: 'Latin America', path: '/destination/latin_america' },
   { name: 'Antartica', path: '/destination/antartica' },
-  { name: 'North America', path: '/destination/north_america' },
+  { name: 'Europe', path: '/destination/europe' },
   { name: 'Indian Ocean', path: '/destination/indian_ocean' },
+  { name: 'Latin America', path: '/destination/latin_america' },
+  { name: 'Middle East', path: '/destination/middleeast' },
+  { name: 'North America', path: '/destination/north_america' },
+  { name: 'Scandinavia & Nordics', path: '/destination/scandinavia' },
 ];
 
 interface ServicesDropdownProps {
