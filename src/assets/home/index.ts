@@ -97,6 +97,7 @@ import IndianOcean from './indianOcean.svg';
 import Maldives from './maldivesDestination.svg';
 import Mauritis from './mauritis.svg';
 import Seychelles from './seychelles.svg';
+import Srilanka from './srilanka.svg';
 
 export const Images = {
   heroBannerImg,
@@ -198,4 +199,5 @@ export const Images = {
   Maldives,
   Mauritis,
   Seychelles,
+  Srilanka,
 };

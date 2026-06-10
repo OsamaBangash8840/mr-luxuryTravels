@@ -86,6 +86,15 @@ export const destinationsData: Record<string, DestinationData> = {
         imagePosition: 'left',
         alt: 'Parisian Experience',
       },
+      {
+        id: 7,
+        title: 'Srilanka',
+        description:
+          'Experience Sri Lanka through curated journeys across golden beaches, lush tea plantations, and ancient cultural wonders. Stay in luxury resorts and boutique retreats while enjoying authentic wildlife, wellness, and heritage experiences.',
+        image: Images.Srilanka,
+        imagePosition: 'right',
+        alt: 'Parisian Experience',
+      },
     ],
   },
   europe: {
