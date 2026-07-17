@@ -10,8 +10,7 @@ import { Typography } from '@/components/common';
 import { useLocale } from '@/contexts/LocaleContext';
 import { locales, localeNames, type Locale } from '@/i18n/config';
 import { FiCheck } from 'react-icons/fi';
-import { IoIosArrowDown } from "react-icons/io";
-
+import { IoIosArrowDown } from 'react-icons/io';
 
 export const LanguageDropdown = (): React.ReactElement => {
   const { locale, setLocale } = useLocale();
@@ -27,7 +26,7 @@ export const LanguageDropdown = (): React.ReactElement => {
     <div className="relative">
       <Menu as="div" className="relative inline-block text-left">
         <MenuButton className="flex gap-2 items-center cursor-pointer px-5 py-3 border border-primary rounded-[20px] transition-colors">
-          <Typography variant="navLink" className="hidden sm:inline">
+          <Typography variant="navLink" className="inline">
             {localeNames[locale]}
           </Typography>
           <IoIosArrowDown className="text-primary" />
@@ -44,7 +43,7 @@ export const LanguageDropdown = (): React.ReactElement => {
         >
           <MenuItems className="absolute right-0 mt-2 w-40 origin-top-right bg-white shadow-lg focus:outline-none py-2 z-50 rounded-lg border border-gray-200">
             <div className="px-1">
-              {locales.map((loc) => (
+              {locales.map(loc => (
                 <MenuItem key={loc}>
                   {({ active }) => (
                     <button
@@ -61,9 +60,7 @@ export const LanguageDropdown = (): React.ReactElement => {
                       >
                         {localeNames[loc]}
                       </Typography>
-                      {locale === loc && (
-                        <FiCheck className="text-primary" />
-                      )}
+                      {locale === loc && <FiCheck className="text-primary" />}
                     </button>
                   )}
                 </MenuItem>

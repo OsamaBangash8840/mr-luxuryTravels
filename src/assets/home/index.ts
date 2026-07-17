@@ -98,6 +98,15 @@ import Maldives from './maldivesDestination.svg';
 import Mauritis from './mauritis.svg';
 import Seychelles from './seychelles.svg';
 import Srilanka from './srilanka.svg';
+import Service9 from '../services/Bespoke Travel Planning.svg';
+import Service10 from '../services/Corporate Travel and Events.svg';
+import Service11 from '../services/Hotel Partners.svg';
+import Service12 from '../services/Private Jet Charter Luxury Yachts.svg';
+import Service13 from '../services/Train Journeys.svg';
+import Service14 from '../services/Villas and Private Islands.svg';
+import Service15 from '../services/wellNessTravel.svg';
+import Service16 from '../services/lifeStyleServices.svg';
+import Service17 from '../services/cruises.svg';
 
 export const Images = {
   heroBannerImg,
@@ -126,6 +135,15 @@ export const Images = {
   Service6,
   Service7,
   Service8,
+  Service9,
+  Service10,
+  Service11,
+  Service12,
+  Service13,
+  Service14,
+  Service15,
+  Service16,
+  Service17,
   Blog1,
   Blog2,
   Blog3,
