@@ -16,12 +16,15 @@ interface ServiceItem {
 }
 
 const services: ServiceItem[] = [
-  { name: 'Luxury Travel Planning', path: '/services' },
-  { name: 'Private Jet Charters', path: '/services' },
-  { name: 'Yacht Rentals', path: '/services' },
-  { name: 'Lifestyle', path: '/services' },
-  { name: 'VIP Experiences', path: '/services' },
-  { name: 'Concierge Services', path: '/services' },
+  { name: 'Bespoke Travel Planning ', path: '/services' },
+  { name: 'Corporate Travel & Events', path: '/services' },
+  { name: 'Cruises', path: '/services' },
+  { name: 'Hotel Partners', path: '/services' },
+  { name: 'Lifestyle Services', path: '/services' },
+  { name: 'Private Jet Charter Luxury Yachts', path: '/services' },
+  { name: 'Train Journeys', path: '/services' },
+  { name: 'Villas and Private Islands', path: '/services' },
+  { name: 'Wellness Travel', path: '/services' },
 ];
 
 interface ServicesDropdownProps {

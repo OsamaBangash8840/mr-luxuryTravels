@@ -44,7 +44,7 @@ export const Services = () => {
         </div>
 
         {/* Right column - grid of images - Full width on mobile */}
-        <div className="w-full sm:w-1/2 flex flex-col gap-3 xl:gap-9">
+        <div className="w-full sm:w-1/2 flex flex-col gap-3 xl:gap-18">
           {/* Top row - two images side by side */}
           <div className="flex gap-3">
             <div className="relative w-1/2 rounded-[20px] h-[200px] sm:h-auto overflow-hidden">
@@ -70,7 +70,7 @@ export const Services = () => {
               </div>
             </div>
             <div className="relative w-1/2 rounded-[20px] h-[200px] sm:h-auto overflow-hidden">
-              <MImage
+              {/* <MImage
                 src={Images.Service15}
                 alt=""
                 className="w-full h-full object-cover"
@@ -88,6 +88,23 @@ export const Services = () => {
                   className="text-white/90 !text-[12px] sm:!text-[14px]"
                 >
                   Travel Perfectly Tailored
+                </Typography>
+              </div> */}
+              <MImage
+                src={Images.Service11}
+                alt=""
+                className="w-full h-full object-cover"
+              />
+              <div className="gradient-overlay" />
+              <div className="absolute bottom-6 left-6 z-10 text-white">
+                <Typography
+                  variant="destinationTitle"
+                  className="text-white mb-1 !text-[18px] sm:!text-[24px]"
+                >
+                  Hotel Partners
+                </Typography>
+                <Typography variant="mainBodyPara" className="text-white/90">
+                  Travel Your Way
                 </Typography>
               </div>
             </div>
@@ -144,8 +161,8 @@ export const Services = () => {
             </div>
 
             {/* Wellness - shows on both mobile and desktop */}
-            <div className="relative w-1/3 sm:w-full rounded-[20px] h-[200px] sm:h-auto overflow-hidden">
-              <MImage
+            <div className="relative w-1/3 sm:w-full rounded-[20px] !h-[200px] sm:h-auto overflow-hidden">
+              {/* <MImage
                 src={Images.Service12}
                 alt=""
                 className="w-full h-full object-cover"
@@ -164,6 +181,26 @@ export const Services = () => {
                 >
                   Adventure, Your Way
                 </Typography>
+              </div> */}
+              <MImage
+                src={Images.Service16}
+                alt=""
+                className="w-full h-full object-cover"
+              />
+              <div className="gradient-overlay" />
+              <div className="absolute bottom-3 left-3 sm:bottom-6 sm:left-6 z-10 text-white">
+                <Typography
+                  variant="destinationTitle"
+                  className="text-white mb-1 !text-[16px] !leading-[18px] sm:!text-[24px]"
+                >
+                  Lifestyle Services
+                </Typography>
+                <Typography
+                  variant="mainBodyPara"
+                  className="text-white/90 !text-[10px] sm:!text-[14px]"
+                >
+                  Unique Trips Await
+                </Typography>
               </div>
             </div>
           </div>
@@ -172,7 +209,7 @@ export const Services = () => {
       {/* second row */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-3 -mt-4 md:-mt-14 xl:mt-4">
         <div className="relative w-full sm:w-1/4 rounded-[20px] h-[250px] overflow-hidden">
-          <MImage
+          {/* <MImage
             src={Images.Service16}
             alt=""
             className="w-full h-full object-cover"
@@ -184,6 +221,23 @@ export const Services = () => {
             </Typography>
             <Typography variant="mainBodyPara" className="text-white/90 w-full">
               Unique Trips Await
+            </Typography>
+          </div> */}
+          <MImage
+            src={Images.Service12}
+            alt=""
+            className="w-full h-full object-cover"
+          />
+          <div className="gradient-overlay" />
+          <div className="absolute bottom-3 left-3 sm:bottom-6 sm:left-6 z-10 text-white">
+            <Typography variant="destinationTitle" className="text-white mb-1">
+              Private Jet Charter Luxury Yachts
+            </Typography>
+            <Typography
+              variant="mainBodyPara"
+              className="text-white/90 !text-[10px] sm:!text-[14px]"
+            >
+              Adventure, Your Way
             </Typography>
           </div>
         </div>
@@ -220,7 +274,7 @@ export const Services = () => {
           </div>
         </div>
         <div className="relative w-full sm:w-1/4 rounded-[20px] h-[250px] overflow-hidden">
-          <MImage
+          {/* <MImage
             src={Images.Service11}
             alt=""
             className="w-full h-full object-cover"
@@ -232,6 +286,23 @@ export const Services = () => {
             </Typography>
             <Typography variant="mainBodyPara" className="text-white/90">
               Travel Your Way
+            </Typography>
+          </div> */}
+          <MImage
+            src={Images.Service15}
+            alt=""
+            className="w-full h-full object-cover"
+          />
+          <div className="gradient-overlay" />
+          <div className="absolute bottom-3 left-3 sm:bottom-6 sm:left-6 z-10 text-white">
+            <Typography variant="destinationTitle" className="text-white mb-1">
+              Wellness Travel
+            </Typography>
+            <Typography
+              variant="mainBodyPara"
+              className="text-white/90 !text-[12px] sm:!text-[14px]"
+            >
+              Travel Perfectly Tailored
             </Typography>
           </div>
         </div>
