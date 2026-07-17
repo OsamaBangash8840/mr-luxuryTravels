@@ -57,39 +57,19 @@ export const Services = () => {
               <div className="absolute bottom-3 left-3 sm:bottom-6 sm:left-6 z-10 text-white">
                 <Typography
                   variant="destinationTitle"
-                  className="text-white mb-1 !text-[18px] sm:!text-[24px]"
+                  className="text-white mb-1 !text-[18px] sm:!text-[24px] sm:leading-[32px] md:!text-[28px] md:leading-[36px] lg:!text-[32px] lg:leading-[40px] xl:!text-[36px] "
                 >
                   Cruises
                 </Typography>
                 <Typography
                   variant="mainBodyPara"
-                  className="text-white/90 !text-[12px] sm:!text-[14px]"
+                  className="text-white/90 !text-[12px] sm:!text-[14px] sm:leading-[20px] md:!text-[15px] md:leading-[22px] 2xl:!text-[18px] xl:leading-[28px]"
                 >
                   Personalized Every Journey
                 </Typography>
               </div>
             </div>
             <div className="relative w-1/2 rounded-[20px] h-[200px] sm:h-auto overflow-hidden">
-              {/* <MImage
-                src={Images.Service15}
-                alt=""
-                className="w-full h-full object-cover"
-              />
-              <div className="gradient-overlay" />
-              <div className="absolute bottom-3 left-3 sm:bottom-6 sm:left-6 z-10 text-white">
-                <Typography
-                  variant="destinationTitle"
-                  className="text-white mb-1 !text-[18px] sm:!text-[24px]"
-                >
-                  Wellness Travel
-                </Typography>
-                <Typography
-                  variant="mainBodyPara"
-                  className="text-white/90 !text-[12px] sm:!text-[14px]"
-                >
-                  Travel Perfectly Tailored
-                </Typography>
-              </div> */}
               <MImage
                 src={Images.Service11}
                 alt=""
@@ -99,11 +79,14 @@ export const Services = () => {
               <div className="absolute bottom-6 left-6 z-10 text-white">
                 <Typography
                   variant="destinationTitle"
-                  className="text-white mb-1 !text-[18px] sm:!text-[24px]"
+                  className="text-white mb-1 !text-[18px] sm:!text-[24px] sm:leading-[32px] md:!text-[28px] md:leading-[36px] lg:!text-[32px] lg:leading-[40px] xl:!text-[36px] "
                 >
                   Hotel Partners
                 </Typography>
-                <Typography variant="mainBodyPara" className="text-white/90">
+                <Typography
+                  variant="mainBodyPara"
+                  className="text-white/90 !text-[12px] sm:!text-[14px] sm:leading-[20px] md:!text-[15px] md:leading-[22px] 2xl:!text-[18px] xl:leading-[28px]"
+                >
                   Travel Your Way
                 </Typography>
               </div>
@@ -191,13 +174,13 @@ export const Services = () => {
               <div className="absolute bottom-3 left-3 sm:bottom-6 sm:left-6 z-10 text-white">
                 <Typography
                   variant="destinationTitle"
-                  className="text-white mb-1 !text-[16px] !leading-[18px] sm:!text-[24px]"
+                  className="text-white mb-1 !text-[18px] sm:!text-[24px] sm:leading-[32px] md:!text-[28px] md:leading-[36px] lg:!text-[32px] lg:leading-[40px] xl:!text-[36px] "
                 >
                   Lifestyle Services
                 </Typography>
                 <Typography
                   variant="mainBodyPara"
-                  className="text-white/90 !text-[10px] sm:!text-[14px]"
+                  className="text-white/90 !text-[12px] sm:!text-[14px] sm:leading-[20px] md:!text-[15px] md:leading-[22px] 2xl:!text-[18px] xl:leading-[28px]"
                 >
                   Unique Trips Await
                 </Typography>
@@ -274,20 +257,6 @@ export const Services = () => {
           </div>
         </div>
         <div className="relative w-full sm:w-1/4 rounded-[20px] h-[250px] overflow-hidden">
-          {/* <MImage
-            src={Images.Service11}
-            alt=""
-            className="w-full h-full object-cover"
-          />
-          <div className="gradient-overlay" />
-          <div className="absolute bottom-6 left-6 z-10 text-white">
-            <Typography variant="destinationTitle" className="text-white mb-1">
-              Hotel Partners
-            </Typography>
-            <Typography variant="mainBodyPara" className="text-white/90">
-              Travel Your Way
-            </Typography>
-          </div> */}
           <MImage
             src={Images.Service15}
             alt=""
