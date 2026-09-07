@@ -8,6 +8,7 @@ import { About } from './pages/About';
 import { Services } from './pages/Services';
 import { Contact } from './pages/Contact';
 import { DestinationDetail } from './pages/DestinationDetail';
+import { Pakistan } from './pages/Pakistan';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/destination/pakistan" element={<Pakistan />} />
+          {/* <Route path="/pakistan" element={<Pakistan />} /> */}
           <Route path="/destination/:id" element={<DestinationDetail />} />
         </Routes>
         <Footer />

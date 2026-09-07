@@ -2,6 +2,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { destinationsData } from "@/data/destinations";
 import { Typography, MImage } from "@/components/common";
 import { useEffect } from "react";
+import { Pakistan } from "./Pakistan";
 
 export function DestinationDetail() {
   const { id } = useParams<{ id: string }>();
@@ -11,6 +12,11 @@ export function DestinationDetail() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [id]);
+
+  // If the destination is Pakistan, render the dedicated luxury Pakistan page
+  if (id?.toLowerCase() === 'pakistan') {
+    return <Pakistan />;
+  }
 
   const destination = id ? destinationsData[id.toLowerCase()] : null;
 
@@ -63,28 +69,68 @@ export function DestinationDetail() {
 
       {/* Dynamic Sections (DestinationData sec) */}
       <div className="mt-8 sm:mt-16">
-        {sections.map((item) => (
-          <div key={item.id} className="container mx-auto mt-16 px-4">
-            <div className="flex flex-col sm:flex-row items-center sm:gap-20 gap-8">
-              <div className={`w-full sm:w-1/2 ${item.imagePosition === "left" ? "sm:order-2" : "sm:order-1"}`}>
-                <Typography variant="h2Heading" weight="regular">
-                  <span dangerouslySetInnerHTML={{ __html: item.title }} />
-                </Typography>
-                <Typography color="secondary" variant="mainBodyPara" className="mt-8 pb-5">
-                  {item.description}
-                </Typography>
-              </div>
-              <div className={`w-full sm:w-1/2 ${item.imagePosition === "left" ? "sm:order-1" : "sm:order-2"}`}>
-                <MImage
-                  src={item.image}
-                  alt={item.alt}
-                  className="w-full rounded-2xl object-cover h-[300px] sm:h-[450px] shadow-lg"
-                />
+        {sections.map((item) => {
+          const destinationLink = item.link || (item.title.toLowerCase() === 'pakistan' ? '/destination/pakistan' : undefined);
+
+          return (
+            <div
+              key={item.id}
+              onClick={() => {
+                if (destinationLink) {
+                  navigate(destinationLink);
+                }
+              }}
+              className={`container mx-auto mt-16 px-4 ${
+                destinationLink ? 'cursor-pointer group' : ''
+              }`}
+            >
+              <div className="flex flex-col sm:flex-row items-center sm:gap-20 gap-8">
+                <div
+                  className={`w-full sm:w-1/2 ${
+                    item.imagePosition === "left" ? "sm:order-2" : "sm:order-1"
+                  }`}
+                >
+                  <Typography
+                    variant="h2Heading"
+                    weight="regular"
+                    className={destinationLink ? "group-hover:text-primary/80 transition-colors" : ""}
+                  >
+                    <span dangerouslySetInnerHTML={{ __html: item.title }} />
+                  </Typography>
+                  <Typography
+                    color="secondary"
+                    variant="mainBodyPara"
+                    className="mt-8 pb-5"
+                  >
+                    {item.description}
+                  </Typography>
+                  {destinationLink && (
+                    <div className="inline-flex items-center gap-2 text-primary font-semibold text-sm sm:text-base group-hover:underline">
+                      Explore {item.title} &rarr;
+                    </div>
+                  )}
+                </div>
+                <div
+                  className={`w-full sm:w-1/2 ${
+                    item.imagePosition === "left" ? "sm:order-1" : "sm:order-2"
+                  }`}
+                >
+                  <div className="overflow-hidden rounded-2xl shadow-lg">
+                    <MImage
+                      src={item.image}
+                      alt={item.alt}
+                      className={`w-full object-cover h-[300px] sm:h-[450px] transition-transform duration-500 ${
+                        destinationLink ? 'group-hover:scale-105' : ''
+                      }`}
+                    />
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
 }
+

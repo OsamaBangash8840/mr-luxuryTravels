@@ -107,6 +107,26 @@ import Service14 from '../services/Villas and Private Islands.svg';
 import Service15 from '../services/wellNessTravel.svg';
 import Service16 from '../services/lifeStyleServices.svg';
 import Service17 from '../services/cruises.svg';
+import Karakoram from '../destinations/karakoramImg.svg';
+import EmergingDestination1 from '../destinations/emergingDestination1.svg'; 
+import EmergingDestination2 from '../destinations/emergingDestination2.svg'; 
+import EmergingDestination3 from '../destinations/emergingDestination3.svg';
+import NorthernImg from '../destinations/northernAreasImage.svg'; 
+import HunzaImg from '../destinations/hunzaImg.svg'; 
+import SkarduImg from '../destinations/skarduImg.svg'; 
+import GrandPakistan from '../destinations/grandPakistanImg.svg';
+import KarakoramImg from '../destinations/karakoramImg.svg';
+import RoyalBaltistan from '../destinations/royalBaltistanImg.svg';
+import LahoreHeritage from '../destinations/lahorHeritageImg.svg';
+import BespokePakistan from '../destinations/bespokePakistanImg.svg';
+import SouthernPunjab from '../destinations/southernPunjabImg.svg';
+import PrivateTransportation from '../destinations/privateTransportationImg.svg';
+import ExceptionalStays from '../destinations/exceptionalStaysImage.svg';
+import ExpertLocalHosts from '../destinations/expertLocalHostsImage.svg';
+import PersonalizedIternaries from '../destinations/personalIternariesImg.svg';
+import SeamlessService from '../destinations/seamlessServiceImg.svg';
+import LocalAssitance from '../destinations/localAssistanceImg.svg';
+import MinarePakistan from '../destinations/minarePakistanImg.svg'
 
 export const Images = {
   heroBannerImg,
@@ -218,4 +238,24 @@ export const Images = {
   Mauritis,
   Seychelles,
   Srilanka,
+  Karakoram,
+  EmergingDestination1,
+  EmergingDestination2,
+  EmergingDestination3,
+  NorthernImg,
+  HunzaImg,
+  SkarduImg,
+  GrandPakistan,
+  KarakoramImg,
+  RoyalBaltistan,
+  LahoreHeritage,
+  BespokePakistan,
+  SouthernPunjab,
+  PrivateTransportation,
+  ExceptionalStays,
+  ExpertLocalHosts,
+  PersonalizedIternaries,
+  SeamlessService,
+  LocalAssitance,
+  MinarePakistan
 };

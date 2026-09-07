@@ -7,6 +7,7 @@ export interface DestinationSection {
   image: string;
   imagePosition: 'left' | 'right';
   alt: string;
+  link?: string;
 }
 
 export interface DestinationData {
@@ -39,7 +40,8 @@ export const destinationsData: Record<string, DestinationData> = {
           'Experience Pakistan beyond the ordinary with exclusive escapes to iconic landscapes and cultural landmarks.Stay in handpicked properties while enjoying tailored itineraries and private local experiences. A journey defined by elegance, discovery, and refined adventure.',
         image: Images.Pakistan,
         imagePosition: 'right',
-        alt: 'Luxury Paris Hotel',
+        alt: 'Luxury Pakistan Karakoram',
+        link: '/destination/pakistan',
       },
       {
         id: 2,
